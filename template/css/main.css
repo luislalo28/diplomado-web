@@ -9,12 +9,25 @@
 /* generales*/
 
 body {
-	font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container{
-	max-width: 1200px;
-	margin: 0 auto;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+figure {    
+    margin: 0;
+}
+img {
+    display: block;
+    max-width: 100%;
 }
 
 /* Header */
@@ -26,3 +39,11 @@ body {
 /* Footer */
 
 /* Helpers */
+.clearfix:before,
+.clearfix:after {
+    content: "";
+    display: block;
+}
+.clearfix:after{
+    clear: both;
+}
