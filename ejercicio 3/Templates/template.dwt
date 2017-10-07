@@ -1,60 +1,61 @@
 <!doctype html>
 <html lang="es">
-
 <head>
-    <meta charset="UTF-8" />
-    <!-- TemplateBeginEditable name="doctitle" -->
-	<title>Untitled Document</title>
-	<!-- TemplateEndEditable -->
-	<!-- TemplateBeginEditable name="head" -->
-	<!-- TemplateEndEditable -->
-    <link rel="stylesheet" href="css/main.css" />
+<meta charset="UTF-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" href="../css/main.css" />
 </head>
 
 <body>
-    <div class="container">
-        <header class="page-header">
-            <h1>Título página</h1>
-        </header>
-      <nav class="page-nav">
-            <ul>
-                <li><a href="#">Sección 1</a></li>
-                <li><a href="#">Sección 2</a></li>
-                <li><a href="#">Sección 3</a></li>
-                <li><a href="#">Sección 4</a></li>
+<div class="wrapper">
+    <header class="page-header">
+        <div class="container">
+           <img src="../images/logo.svg" alt="" />
+            <h1 class="hidden">Musica y vida</h1>
+        </div>
+    </header>
+    <nav class="page-nav">
+        <div class="container">
+            <ul class="clearfix">
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="../servicios.html">Servicios</a></li>
+                <li><a href="../productos.html">Productos</a></li>
+                <li><a href="../contacto.html">Contacto</a></li>
             </ul>
-        </nav>
-        <main class="page-main">
-			<!-- TemplateBeginEditable name="principal" -->
-           
+        </div>
+    </nav>
+    <main class="page-main">
+        <div class="container"> <!-- TemplateBeginEditable name="principal" -->
             <section class="page-section">
-                <h2>Sección 1</h2>
+                <div class="row">
+                    <div class="col col-8">
+                        <h2>Inicio</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit nulla animi modi laudantium quasi nam iste laborum consequuntur architecto doloribus, libero voluptatum iure unde corporis voluptates vitae, impedit error beatae. Illum tempore obcaecati quaerat assumenda, hic cupiditate provident cumque odio aperiam sit similique, debitis vel <em>maxime labore, magnam cum eaque nostrum quisquam molestiae nesciunt omnis dignissimos eos ut. Omnis libero, blanditiis autem officia dolore similique quis soluta</em> natus nisi fuga sit eligendi, dolorem nostrum nihil voluptatum error saepe, debitis, nam officiis praesentium deleniti! Velit perferendis dignissimos pariatur tenetur repellendus a rerum ducimus quo accusantium, earum ut mollitia atque deleniti ipsam?</p>
+                        <p>Itaque beatae adipisci ducimus tenetur, quasi deleniti, cupiditate similique numquam aspernatur, esse animi dignissimos corrupti! Recusandae veritatis alias ut nesciunt, cumque, explicabo quia possimus libero laudantium voluptas assumenda consequatur, obcaecati vitae expedita, facilis nihil deserunt? Consequuntur recusandae, natus perspiciatis totam ad beatae deserunt,<strong> quasi dolorum odit animi cupiditate ipsa non consequatur,</strong> ullam fugiat voluptatum eum molestiae quaerat? Et facere facilis obcaecati perferendis vero iste, eaque magnam? Debitis id culpa, quo labore, ex aut ipsam eius, illum asperiores reiciendis at consectetur ipsa iste, cum! Ad illo molestiae ipsa nostrum laudantium, nisi officiis molestias doloremque sit, odio aut sequi cumque minima vel.</p>
+                        <p>Maxime inventore hic dignissimos possimus voluptatum itaque sequi ipsam, delectus necessitatibus laudantium. Nam, eveniet, amet. Ducimus dolores quis adipisci iure quas error dicta magnam assumenda incidunt facilis nulla consequuntur illo repellat, dignissimos voluptate ipsum id ipsa laborum quisquam recusandae sapiente quidem minima maxime quos. Eligendi ducimus atque iure officia dignissimos, tempora perferendis eaque provident deserunt quae totam molestiae voluptatibus, odit, ad est commodi repellat <a href="http://facebook.com/" target="_blank">illo man</a> temporibus laborum cupiditate nam impedit numquam! Voluptas veniam quod vero sint obcaecati, eius velit. Nemo quis magni ratione explicabo enim ea officiis hic velit molestiae aliquam iusto animi, adipisci, dignissimos tenetur vel sint dolor facilis.</p>
+                    </div>
+                    <div class="col col-4">
+                        <img src="../images/img-01.jpg" alt="">
+                    </div>
+                </div>
             </section>
-
-            <section class="page-section">
-                <h2>Sección 2</h2>
-            </section>
-
-            <section class="page-section">
-                <h2>Sección 3</h2>
-            </section>
-
-            <section class="page-section">
-                <h2>Sección 4</h2>
-            </section>
-            <!-- TemplateEndEditable -->
-        </main>
-        <footer class="page-footer">
-          <p>Todos los derechos reservados | eduMac 2017 | Eduardo López </p>
-      </footer>
-    </div>
-    <div id="js">
-        <script src="js/lib/jquery-3.2.1.min.js"></script>
-        	<!-- TemplateBeginEditable name="js" -->
-			<!-- TemplateEndEditable -->
-        <script src="js/main.js"></script>
-    </div>
-
+        
+            <!-- TemplateEndEditable --> </div>
+    </main>
+    <footer class="page-footer">
+        <div class="container">
+            <p>Todos los derechos reservados | eduMac 2017 | Eduardo López </p>
+        </div>
+    </footer>
+</div>
+<div id="js"> 
+    <script src="../js/lib/jquery-3.2.1.min.js"></script> 
+    <!-- TemplateBeginEditable name="js" --> <!-- TemplateEndEditable --> 
+    <script src="../js/main.js"></script> 
+</div>
 </body>
-
 </html>
