@@ -6,6 +6,9 @@
 /* normalize */
 @import url("lib/normalize.css");
 
+/* grid */
+@import url("lib/grid.css");
+
 /* generales*/
 
 body {
@@ -15,6 +18,7 @@ body {
 .container{
     max-width: 1200px;
     margin: 0 auto;
+    padding: 0px 16px;
 }
 ul,
 ol {
@@ -46,4 +50,17 @@ img {
 }
 .clearfix:after{
     clear: both;
+}
+
+.margin-bottom,
+.mb {
+    margin-bottom: 25px;
+}
+.margin-top,
+.mt {
+    margin-top: 25px;
+}
+.margin-vertical,
+.mv {
+    margin: 25px 0;
 }
