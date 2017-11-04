@@ -184,7 +184,78 @@ img {
     .dk-col-12{
         width: 100%;
     }
+/* form */
+.form {
+    border: 1px solid #ccc;
+    padding: 30px 50px;
+}
+.form__element {
+    margin-bottom: 25px;
+}
+.form__label {
+    display: block;
+    margin-bottom: 4px;
+}
 
+.form__text,
+.form__textarea,
+.form__select{
+    background-color: #FFF;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #CCC;
+    font-size: 16px;
+    box-sizing: border-box;
+    outline: none;
+}
+.form__text:focus,
+.form__textarea:focus,
+.form__select:focus {
+    border-color: #800202;
+    border-width: 2px;
+}
+.form__text:disabled,
+.form__textarea:disabled,
+.form__select:disabled {
+    background-color: #363636;
+    border-color: #020101;
+    color: #f5f3f3;
+}
+.form__select {
+    height: 40px;
+}
+.form__textarea {
+    height: 150px;
+    resize: none; /* sirve para quitar las lienas de abajo que muestran que se puede hacer mas grande o más pequeño */
+}
+.form__button {
+    background-color: #F5F5F5;
+    border: 1px solid #CCC;
+    color: #666;
+    padding: 10px 25px;
+    border-radius: 0;/* para que no se vean curvas al lado del boton */
+    cursor: pointer;/* para que aparezca la manita al poner el cursor */
+    transition: all .2s;
+}
+.form__button:hover {
+    background-color: #c0bebe;
+}
+.form__button--main {
+    background-color: #fa0000;
+    color: #ffffff;
+}
+.form__button--main:hover {
+    background-color: #910505;
+            
+}
+.form label.error {
+    color: #e60404;
+}
+.form__text.error,
+.form__textarea.error,
+.form__select.error{
+    background-color: rgba(230, 4, 4, .05);
+}
 /* Helpers */
 .clearfix:before,
 .clearfix:after {
@@ -205,4 +276,16 @@ img {
 .margin-vertical,
 .mv {
     margin: 25px 0;
+}
+.text-right,
+.tr {
+    text-align: right;
+}
+.text-center,
+.tc {
+    text-align: center;
+}
+.text-left,
+.tl{
+    text-align: left;
 }
